@@ -158,8 +158,8 @@ int main() {
 
   gpio_make_output(RANGE_SEL);
   gpio_set(RANGE_SEL);
-  gpio_make_output(CHRG_SHDWN);
-  gpio_set(CHRG_SHDWN);
+  //gpio_make_output(CHRG_SHDWN);
+  //gpio_clr(CHRG_SHDWN);
 
   //set all translators to input
   gpio_make_output(CLK_DIR);

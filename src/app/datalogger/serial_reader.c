@@ -40,7 +40,7 @@ void serial_reader_print(serial_reader_t *sr, const char *s) {
                      sr->uart.uart_id);
 }
 
-#define ACTIVITY_TIMEOUT_US 2000000
+#define ACTIVITY_TIMEOUT_US 30000000
 
 bool serial_reader_is_active(serial_reader_t *sr) {
   Time now = clock_time_us();
